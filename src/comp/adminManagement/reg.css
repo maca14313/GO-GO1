@@ -1,0 +1,681 @@
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.margin{
+    margin: 10px;
+}
+.margin5{
+    margin: 5px;
+}
+.margin_left5{
+    margin-left: 5px;
+}
+.margin_left10{
+    margin-left: 10px;
+}
+.margin_right5{
+    margin-right: 5px;
+}
+.margin_right10{
+    margin-right: 10px;
+}
+.white_space{
+ white-space: nowrap;
+}
+
+.regCon{
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../img/background2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.regConMargin{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: max-content;
+}
+.conReceipt{
+    width: 100vw;
+    min-height: 100vh;
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    background-image: url(../../img/background2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formCon{
+    min-width:600px;
+    max-width:600px;
+    min-height:max-content;
+    background-color:transparent;
+    box-shadow: 1px 1px 10px lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+
+}
+.formConUpdate{
+    margin-bottom: 20px;
+}
+
+.row{
+    margin: 12px 0;
+    min-width: 85%;
+    max-width: 85%;
+    height: 42px;
+   background-color: white;
+  outline: none;
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1.5px solid #C7BEBE;
+  border: none;
+  border-bottom-width: 2.5px;
+  border-bottom: 1px solid #00c8ff;
+  border-radius: 6px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.updateRow{
+ display: flex;
+ align-items: center;
+ border: none;
+ margin: 2.5px;
+ max-width: 75vw;
+ min-height: 30px;
+ max-height: 30px;
+ box-shadow: 1px 1px 10px lightgray;
+ overflow-x: scroll;
+ border-bottom: 1px solid #00c8ff;
+}
+
+.regBtn{
+    color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #4070f4;
+  background-color: #97edff;
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+  min-height: 50px;
+ max-height: 50px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+
+}
+
+.regBtn:active{
+    background-color: #8aa7f5;
+}
+
+.regBtn::placeholder{
+    color: white;
+}
+
+
+@media screen and (max-width:500px) {
+    .formCon{
+        min-width: 90vw;
+        min-height:max-content;
+      /*  margin-top: 10px; */
+    }
+    .formConReceipt{
+        align-self: center;
+        min-width: 85vw;
+        max-width: 85vw;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:750px) and (min-width:501px) {
+    .formCon{
+        min-width: 80vw;
+        min-height:max-content;
+    }
+}
+
+@media screen and (max-height:800px) and (min-height:620px){
+    .row{
+        height: 40px;
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-height:619px) and (min-height:550px){
+    .row{
+        height: 30px;
+        margin: 7px 0px;
+    }
+}
+
+@media screen and (max-height:549px){
+    .row{
+        height: 20px;
+        margin: 6px 0px;
+        font-size: 13px;
+        border: none;
+        border-bottom: 1px solid lightgray;
+    }
+}
+
+@media screen and (max-height:440px){
+    .formCon{
+       min-height: 198px;
+       max-height: 100px;
+       overflow-y: scroll;
+    
+    }
+    .row{
+        min-height: 28px;
+        margin: 6px 0px;
+        font-size: 13px;
+        border: none;
+        border-bottom: 1px solid lightgray;
+    }
+}
+
+
+
+
+
+/**************************************************************************/
+
+.listCon{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border: none;
+ border-bottom: 1px solid rgb(179, 174, 174);
+ min-height: 30px;
+ max-height: 30px;
+ min-width: 100%;
+ max-width:100%;
+ box-shadow: 1px 1px 10px lightgray;
+ overflow-x: scroll;
+ border-bottom: 1px solid #00c8ff;
+
+}
+.listConProfile{
+    min-width: 90%;
+    max-width:90%;
+}
+
+.idColor{
+    background-color:#97edff;
+}
+
+.titleOfProfile{
+   margin:5px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+/**************************************************************************/
+.regConList{
+    overflow-y: scroll;
+    justify-content: flex-start;
+    padding: 20px 0px;
+}
+
+
+
+.listOfMembersCon{
+padding: 0px;
+box-shadow: 0px 0px 0px;
+
+
+}
+
+
+.numberInputCon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    justify-self: center;
+    box-shadow: 0px 0px 0px black;
+    padding: 0px;
+    padding-left: 10%;
+    margin-top: 0px;
+}
+
+.numberInput{
+    min-width: 65%;
+    max-width:65% ;
+
+}
+
+
+.membersLength{
+    min-width: 55px;
+    max-width:55px ;
+    max-height: 35px;
+    min-height: 35px;
+    background-color: green;
+    background-color: #00c8ff;
+
+    color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.spanOfList{
+    margin-right:10px ;
+    display: flex;
+    color: black;
+}
+.deleteClick{
+    color: red;
+    
+}
+
+.searchByCon{
+    min-width: 90%;
+    max-width:90% ;
+    max-height: 30px;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.searchByConShares{
+    
+    justify-content: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.searchByConNumber{
+    min-width:max-content;
+    max-width:max-content ;
+}
+.searchByBtn{
+    background-color: #97edff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 7px;
+    color: black;
+    border: none;
+    cursor: pointer;
+
+}
+.searchByConSharesTitle{
+    max-height: 20px;
+    min-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.searchByBtnShares{
+    justify-self: flex-start;
+    padding: 5px 15px;
+    font-size: 13px;
+    margin-left: 10px;
+    
+
+}
+.searchByBtn:active{
+    padding: 10px 20px;
+}
+.numberBtnCon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 30px;
+    min-height: 30px;
+    margin-top: 5px;
+
+}
+.numberBtnConBtn{
+    padding: 5px 35px;
+    margin: 5px;
+    background-color: #97edff;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.numberBtnConBtn:active{
+    padding: 10px 45px;
+}
+.deleteOnActive:active{
+    background-color:rgb(245, 101, 101);
+}
+.listOfMembersConSearchMInOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+.listOfMembersConAdd{
+    max-height: 130px;
+    min-height: 130px;
+    overflow-y: auto;
+}
+
+@media screen and (max-height:440px){
+    .listOfMembersCon{
+       min-height:35px;
+       max-height: 35px;
+       overflow-y: scroll;
+       background-color: transparent;
+    
+    }
+    .listOfMembersConSearch{
+        min-height:80px;
+       max-height: 80px;
+    }
+    .listOfMembersConSearchM{
+        min-height:35px;
+       max-height: 35px;
+    }
+    .listOfMembersConAdd{
+        max-height: 120px;
+        min-height: 120px;
+        overflow-y: auto;
+    }
+    
+}
+         /**************************************************************************/
+
+.updatelabel{
+   max-width: 90%;
+   min-width:100% ;
+   max-height: 25px;
+   min-height: 25px;
+   display: flex;
+   justify-content: start;
+   align-items: start;
+   margin: 1px;
+   font-size: 13px;
+   box-shadow: 0px 0px 0px black;
+   white-space: nowrap;
+   overflow: hidden;
+}
+.updatelabeltext{
+    color: gray;
+    color: #4070f4;
+    margin-right: 5px;
+}
+
+
+.updatelabelReceipt{
+    justify-content: flex-start;
+}
+.selectUpdate{
+    margin-bottom: 5px;
+    height:15px;
+    font-size: 12px;
+    color: gray;
+}
+.select::-ms-expand {
+    display: none;
+
+}
+         /**************************************************************************/         /**************************************************************************/
+
+
+.deleteMemberCon{
+    max-width: 80%;
+   min-width:80%;
+   min-height:25px;
+   max-height: 25px;
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 5px;
+}
+
+.deleteMemberConPayment{
+    box-shadow: none;
+    flex-direction: row;
+    min-height:25px;
+    max-height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.deleteMemberConPaymentText{
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600px;
+
+}
+.deleteApproveMemberCon{
+   padding: 5px 10px;
+   border: 1px solid #00c8ff;
+   font-size: 12px;
+   border-radius: 10px;
+}
+.deleteMemberCon div{
+    padding: 5px 10px;
+    color: red;
+    font-size: 12px;
+    border: 1px solid #97edff;
+    border-radius: 5px;
+    
+
+
+    
+}
+.deleteMemberCon div:active{
+    padding: 0px 10px ;
+}
+
+
+.regConDelete{
+    position: relative;
+    overflow-y: scroll;
+}
+
+.regConDelete input{
+    min-height: 25px;
+    max-height: 25px;
+}
+.regConDeleteModal{
+position: absolute;
+bottom: 5%;
+left: 45%;
+translate: -45%;
+max-width: 90%;
+min-width:90%;
+min-height:100px;
+max-height: 100px;
+background-color:#97edff;
+box-shadow: 1px 1px 10px rgb(76, 76, 76);
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 5px;
+}
+.regConDeleteModalPersonCon{
+    position: relative;
+    max-width: 90%;
+    min-width:90%;
+    min-height:100px;
+max-height: 100px;
+}
+.regConDeleteModalPerson{
+    bottom: 200%;
+}
+
+.regConDeleteModalBtnCon{
+margin-top: 15px;
+max-width: 100%;
+min-width:100%;
+min-height:40px;
+max-height: 40px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.regConDeleteModalTitle{
+margin-top: 5px;
+font-size: 12px;
+text-align: center;
+}
+.regConDeleteModalYes{
+color: red;
+background-color: aliceblue;
+padding: 7px 20px ;
+border-radius: 10px;
+box-shadow: 1px 1px 10px grey;
+
+
+}
+.regConDeleteModalNo{
+    color: green;
+    background-color: aliceblue;
+    padding: 7px 20px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+
+    }
+
+.regConDeleteModalYes:active{
+        padding: 10px 30px ;
+        border-bottom: 1px solid black;
+    }
+
+    .regConDeleteModalNo:active{
+        padding: 10px 30px ;
+        border-bottom: 1px solid black;
+    }
+
+
+    /*******************************************************************/
+.formConIntroCon{
+    margin-top: 20px;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px 10px;
+    border: 1px solid #1aadca;
+}
+    .formConIntro{
+        max-width: 90%;
+        min-width:90%;
+         min-height:40px;
+         max-height: 40px; 
+         margin: 5px 10px;
+         
+         border: 1px solid #1aadca ;
+         color: black;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background-color: rgb(249, 245, 245);
+         border-radius: 10px;
+         
+
+    }
+
+    .receiptColor{
+        background-color: rgb(250, 240, 221);
+        font-style: italic;
+        box-shadow: 1px 1px 10px black;
+    }
+    .receiptColorItem{
+        background-color: transparent;
+        border: none;
+    }
+
+    .deleteApproveReceiptCon{
+        max-width: 90%;
+        min-width:90%;
+        min-height:max-content;
+         max-height: max-content; 
+         display: flex;
+         justify-content: space-between;
+         margin-top: 10px;
+    }
+
+    .check-box-con{
+        max-width:85% ;
+        min-width:85%;
+        max-height:20px;
+        min-height:20px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: var(--text-color);
+        font-size: 14px;
+        padding-left: 15px;
+        color: white;
+        border: none;
+    
+     }
+     .check-box-con-text{
+        color: white;
+     }
+     .check-box{
+        max-width:14px ;
+        min-width:14px;
+        max-height:14px;
+        min-height:14px;
+        margin-left: 10px;
+        border-radius: 3px;
+
+    }
+    .check-box:active{
+        max-width:15px ;
+        min-width:15px;
+        max-height:15px;
+        min-height:15px;
+    }
+    .labelBank{
+        justify-content: center;
+    }
+    .monthsDifference{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width:max-content ;
+        text-align: center;
+        min-width:35px;
+        max-height:25px;
+        min-height:25px;
+        margin-top: 30px;
+        border-radius: 5px;
+
+    }
+
+    .payment-page-info-list{
+        background-color:#0077ff;
+        color: white;
+        box-shadow: none;
+      }

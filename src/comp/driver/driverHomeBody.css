@@ -1,0 +1,789 @@
+.homeBodyCon{
+    width: 100%;
+    color: #286ebd;
+    color: #0077ff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+   /* background-image: url('../homeMap/Screen\ Shot\ 2022-12-01\ at\ 9.19.33\ PM.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover; */
+    
+}
+
+.homeMap{
+    background-color: rgba(0, 255, 255, 0.322);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.searchCarBtnDriverHomeCon{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 75px;
+    max-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.searchCarBtnDriverHom{
+
+    max-width: 70%;
+    min-width: 70%;
+    min-height: 30%;
+    max-height: 30%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.392);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+
+
+}
+.searchCarBtnDriverHom:focus{
+    background-color: rgba(255, 166, 0, 0.572);
+
+}
+
+.onlineheadingCon{
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 12%;
+    max-height: 12%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content:flex-start;
+    background-color: #0077ff;
+    background-color: rgba(255, 255, 255, 0.581);
+    background-color: white;
+    padding-bottom: 10%;
+   
+}
+
+.searchCarOnlineView{
+    margin-top: 0px;
+    width:max-content;
+    height:30px;
+    font-size: 14px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.392);
+    background-color: rgba(255, 255, 255, 0.581);
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+
+}
+.searchCarOnlineCancel{
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    width:200px;
+    height:40px;
+    font-size: 20px;
+    background-color: rgba(249, 37, 37, 0.651);
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+
+}
+
+.searchCarOnlineCancel:active{
+   background-color: rgba(6, 5, 5, 0.437);
+   width:90px;
+   height:90px;
+   text-decoration: none;
+   border-radius: 50%;
+   border: none;
+
+
+}
+
+
+
+
+ 
+ .searchCarBtn2:active{
+    background-color:rgba(255, 0, 0, 0.561);
+    width: 35%;
+    height: 70px;
+    
+}
+
+.searchCarBtn:active{
+    background-color:#0077ff8b;
+    
+}
+
+.searchCarBtnText{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.CircularProgressConCancelChilde1{
+    min-width: 100px;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    background-color: #0077ff;
+    border-radius: 10px;
+}
+.searchCarBtnTextCancel1:active{
+    background-color: rgba(255, 0, 0, 0.444);
+
+}
+
+.loadingConDriver{
+    position: relative;
+    min-width: 100%;
+    min-height: max-content;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 25px;
+   
+
+}
+
+.loadingCon{
+    position: relative;
+    min-width: 100%;
+    padding-top: 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    bottom: 0px;
+    background-color: white;
+    background-color: #0077ff;
+
+}
+.loadingCon1{
+    position: absolute;
+    bottom: 1%;
+    padding-top: 5px;
+    min-width: 95%;
+    min-height: 250px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0077ff;
+    border: 2px solid red;
+
+}
+
+.loadingConDriverClientInfo{
+    padding-top: 5px;
+    position: relative;
+    min-width: 100%;
+    min-height: 150px;
+    background-color:transparent;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+.loadingConDriverClientInfoName{
+    min-width: 25%;
+    max-width: 55%;
+    min-height: 25px;
+    max-height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    text-decoration: none;
+   /* box-shadow: 10px 10px 10px rgb(177, 175, 175);*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: capitalize;
+    position: absolute;
+    
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px lightgrey;
+
+}
+.loadingConDriverClientInfoNameD{
+    bottom:15%;
+    left:0%;
+}
+.loadingConForm{
+    min-width: 100%;
+    min-height: 120px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.loadingConFormArrivalMessage{
+    width: max-content;
+    max-width:90vw ;
+    max-height: 100px;
+    padding: 20px;
+    overflow-y: scroll;
+    background-color: #0077ff;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.loadingConFormInput{
+    min-width: 92%;
+    min-height: 30px;
+    border: none;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.165);
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loadingConFormInputInner{
+    min-width: 80%;
+    min-height: 100%;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+}
+.loadingConFormInputBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+.loadingConFormInputSend{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#0077ff;
+}
+.CircularProgressCon{
+    position: absolute;
+    bottom: 150px;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(0, 119, 255, 0.188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CircularProgress{
+    font-size:100%;
+    border-radius: 20px;
+    background-color: white;
+    background-color:#0077ff;
+
+    color: transparent;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 4px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.392);
+    min-width: 100px;
+    min-height: 100px;
+
+}
+
+.CircularProgressConCancel1{
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color:#0077ff;
+    color: white;
+    font-size: 16px;
+    border:2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CircularProgressConCancel:active{
+    background-color:#0077ff8b;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.acceptanceCon{
+    
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 30%;
+    min-height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+
+
+}
+.acceptanceConGo{
+    
+    max-width: 98%;
+    min-width: 98%;
+    max-height: max-content;
+    min-height: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 20px;
+
+
+}
+.acceptanceConWhere{
+    max-width: 95%;
+    min-width: 95%;
+    max-height: 40px;
+    min-height: 20px;
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.acceptanceConWhereTitle{
+    color: #013f86;
+    max-width: 10%;
+    min-width: 10%;
+    max-height: 99%;
+    min-height: 99%;
+}
+.acceptanceConWhereInfo{
+ max-width: 87%;
+ min-width: 87%;
+ margin-left: 2%;
+ padding-left: 1%;
+ max-height: 99%;
+ min-height: 99%;
+ border: none;
+ font-size: 16px;
+ overflow: auto;
+ overflow-x: scroll;
+}
+@media screen and (max-width:420px){
+    .acceptanceConWhereInfo{
+       max-width: 67%;
+       min-width: 67%;
+       margin-left: 20px;
+
+    }
+}
+
+.acceptanceConMsg{
+    max-width: 90%;
+    min-width: 90%;
+    max-height: 50px;
+    min-height: 50px;
+    font-size: 25px;
+    color: black;
+    font-size: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+
+}
+.acceptanceConMsgTime{
+    color:#286ebd;;
+    max-height: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 30px;
+    color: red;
+   
+}
+.acceptanceConMsgPrice{
+   
+    max-height: 40px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex: 2;
+    font-size: 30px;
+}
+.birrCon{
+    font-size: 18px;
+    font-style: italic;
+    color: gray;
+    color:#35a854;
+}
+
+
+.acceptanceConGo2{
+    
+    max-width: 97%;
+    min-width: 97%;
+    max-height: max-content;
+    min-height: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+
+}
+.acceptanceConWhere2{
+    max-width: 95%;
+    min-width: 95%;
+    max-height: 15px;
+    min-height: 15px;
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+    margin-bottom:0px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.acceptanceConWhere2Price{
+    max-width:max-content;
+    min-width:max-content ;
+    max-height: 20px;
+    min-height: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 5px;
+    color: black;
+    
+
+}
+.acceptanceConWhere2:hover{
+    max-width: 95%;
+    min-width: 95%;
+    max-height: 40px;
+    min-height: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.acceptanceConWhereTitle2Price{
+ font-size: 13px;
+ color: #013f86;
+}
+.acceptanceConWhereInfo2Price{
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 13px;
+}
+.acceptanceConWhereTitle2{
+    color: #013f86;
+    max-width: 10%;
+    min-width: 10%;
+    max-height: 99%;
+    min-height: 99%;
+    font-size: 13px;
+}
+
+.acceptanceConWhereInfo2{
+ max-width: 85%;
+ min-width: 85%;
+ margin-left: 4%;
+ padding-left: 4%;
+ padding-bottom: 2px;
+ max-height:100%;
+ min-height: 100%;
+ border: none;
+ font-size: 12px;
+ overflow: auto;
+ overflow-x: scroll;
+ text-transform: capitalize;
+}
+.acceptanceConWhereInfo2:hover{
+    max-width: 87%;
+    min-width: 87%;
+    margin-left: 4%;
+    padding-left: 3%;
+    max-height:40px;
+    min-height: 40px;
+    border: none;
+    font-size: 12px;
+    overflow: auto;
+    overflow-x: scroll;
+    background-color:#f8fafc;
+   }
+   
+
+.acceptanceConBtnCon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width:98%;
+    min-width: 98%;
+    height: max-content;
+    margin-bottom: 10px;
+    margin-top: 15px;
+   
+}
+.acceptanceConBtn{
+    max-width: 40%;
+    min-width: 40%;
+    max-height: 35px;
+    min-height: 35px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-style: italic;
+    color:black;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+
+
+}
+
+
+.messageIcon{
+    position: absolute;
+    bottom: 15%;
+    right:6%;
+    padding: 5px;
+    box-shadow: 1px 1px 10px lightgrey;
+}
+
+
+.messageCon{
+    max-width: 99%;
+    min-width: 99%;
+    max-height: 80%;
+    min-height: 80%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    min-width: 100vw;
+    max-height: 100vh;
+    min-height: 100vh;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    position: fixed;
+    overflow-x: scroll;
+    overflow-y: scroll;
+
+
+}
+.messageForm{
+    position: absolute;
+    max-width: 800px;
+    min-width: 800px;
+    max-height: 80vh;
+    min-height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color:black;
+
+}
+
+   
+
+.messageViewCon{
+    position: absolute;
+    max-width: 65%;
+    min-width: 65%;
+    max-height: 210px;
+    min-height: 40px;
+    left: 15%;
+    bottom: 65%;
+    border: none;
+    overflow-x:scroll;
+    overflow-y: scroll;
+    scroll-behavior: smooth; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+  
+    
+}
+
+
+.messageViewConDriver{
+    position: absolute;
+    position: fixed;
+    max-width: 90%;
+    min-width: 90%;
+    max-height: 70%;
+    min-height: 45%;
+    left: 5%;
+    bottom: 140px;
+    border: none;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth; 
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    background-color: red;
+} 
+
+
+
+.messageView{
+    max-width:90%;
+  min-width: 5%;
+  min-height: max-content;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  color:black;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  position: relative; 
+
+   
+    
+}
+.messageViewEnd{
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  bottom: -5px;
+  right: 0px;
+  background-color: inherit;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius:100%;
+  border-bottom-left-radius: 100%;
+  z-index: -1;
+}
+.messageView::placeholder{
+    color: white;
+}
+.messageInput{
+    position: absolute;
+    max-width: 70%;
+    min-width: 70%;
+    max-height: 30px;
+    min-height: 30px;
+    left: 5%;
+    padding-left: 10px;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+.messageBtn{
+    position: absolute;
+    max-width: 15%;
+    min-width: 15%;
+    max-height: 30px;
+    min-height: 30px;
+    right: 3%;
+    font-size: 13px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0077ff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+.messageBtn:focus{
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
