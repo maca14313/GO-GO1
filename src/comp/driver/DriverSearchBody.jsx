@@ -259,7 +259,7 @@ useEffect(() => {
         
         
           } catch (error) {
-              //console.log(error)
+              console.log(error)
     
           }
     
@@ -296,7 +296,7 @@ useEffect(() => {
          
     
       } catch (error) {
-          //console.log(error)
+          console.log(error)
 
       }
   
@@ -317,7 +317,7 @@ useEffect(() => {
     
     
       } catch (error) {
-          //console.log(error)
+          console.log(error)
 
       }
 
@@ -339,13 +339,19 @@ useEffect(() => {
   if (sendDriverLocationOnOf==1) {
      
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    intervalLoc = setInterval(async() => {
-      const driverLocation=await axios.post(`${apiHttp}/senddriverlocation/${id}`,{
-        latitude:loc?.latitude,
-        longitude:loc?.longitude,
-      })
-      console.log('we are online',loc)
-    }, 6000);
+   
+    try {
+      intervalLoc = setInterval(async() => {
+        const driverLocation=await axios.post(`${apiHttp}/senddriverlocation/${id}`,{
+          latitude:loc?.latitude,
+          longitude:loc?.longitude,
+        })
+        console.log('we are online',loc)
+      }, 6000);
+  
+    } catch (error) {
+      console.log(error)
+    }
 
     return () => clearInterval(intervalLoc);
 
@@ -361,7 +367,7 @@ useEffect(() => {
     
     
       } catch (error) {
-          //console.log(error)
+          console.log(error)
 
       }
 
