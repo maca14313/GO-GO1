@@ -77,9 +77,14 @@
     -ms-overflow-style: none; 
   scrollbar-width: none;
 }
+.con1son2-title{
+  justify-content: center;
+  padding-left: 0px;
+}
 .con1son2::-webkit-scrollbar {
     display: none;
   }
+ 
 .menuBtn{
     max-width: 25px;
     min-width: 25px;
@@ -120,7 +125,11 @@
 .languLi:active{
     color: salmon;
 }
-
+.languLiTitle{
+  margin-right: 35px;
+  font-size: 16px;
+  font-weight: bolder;
+}
 .menuCon{
     position: absolute;
     top: 0px;

@@ -8,7 +8,6 @@ function DriverHome() {
     <div className="homepage">
     <NavBar/>
     <DriverHomeBody/>
-    <Footer/>
    
   </div>
   )

@@ -93,7 +93,7 @@ function NavBar() {
 
           </div>
 
-        <ul className='con1son2'>
+      { /* <ul className='con1son2'>
 
           <li className='languLi'   >English</li>
           <li className='languLi'   >oromiffa</li>
@@ -104,8 +104,13 @@ function NavBar() {
           <li className='languLi'><small>አማርኛ</small></li>
           <li className='languLi'>العربيه</li>
           
-        </ul>
+  </ul> */}
+         <ul className='con1son2 con1son2-title'>
 
+<li className='languLi languLiTitle'   >GO-GO</li>
+
+
+</ul> 
     
             
       </div>
