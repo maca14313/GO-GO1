@@ -161,10 +161,14 @@ if (driverDataRes?.name) {
        
         <input className='logInInput' type="number" onChange={(e)=>setDriverId(e.target.value)}  placeholder='Id' required />
         <input className='logInInput' type="password" onChange={(e)=>setPassword(e.target.value)}  placeholder='Password' required />
-
+       
          <button type='submit' className='driveSignInRegisterFormBtn' style={{display:waitingLogIn=='0'?'':'none'}}>Log-In</button>
+        
          <button  className='driveSignInRegisterFormBtn' onClick={()=>setWaitingLogIn(0)} style={{display:waitingLogIn=='1'?'':'none',backgroundColor:'lightgray',color:'gray'}}>wait...</button>
-
+         <div style={{minWidth:'95%', marginLeft:'10px',marginBottom:'10px', fontSize:'14px'}}>
+       <div>Id 4321</div>
+        <div>password 4321</div>
+       </div>
          <div className='signinLinks'><Link className='signinLinks' to={'/driversignein'}>Register</Link> <Link className='signinLinks' to={'/'}>Home</Link></div>
 
 

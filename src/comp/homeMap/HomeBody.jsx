@@ -569,7 +569,10 @@ useEffect(() => {
     const sendPassengerLocation=async(e)=>{
       setFetchingSearchDriver(1)
       e.preventDefault() 
+      console.log('kk')
          if (loc?.latitude!=undefined) {
+          console.log('kk')
+
           try {
             resetAll2()
 
@@ -593,6 +596,7 @@ useEffect(() => {
               driverId10:0,
             })
             const searchRes =passengerLocation.data
+            console.log(searchRes.good=='good')
               if (searchRes.good=='good') {
               setCanceledDriverId(searchRes.id)
               localStorage.setItem('canceledDriverId',JSON.stringify(searchRes.id))
@@ -603,6 +607,7 @@ useEffect(() => {
               setFetchingSearchDriver(0)
             }else{
               setNoDriver(1)
+              setFetchingSearchDriver(0)
             }
   
           
@@ -1350,7 +1355,15 @@ return(
          <form className='clientNumberFormTo' onSubmit={sendPassengerLocation}  style={{display:driverInfo!=''?'none':''}}>
           
           <div className='driverNotFoundTo' style={{display:noNetwork==1?'':'none'}} ><h6>No Network</h6></div>
-                   <div className='driverNotFoundTo' style={{display:noDriver==1?'':'none'}}><h6>No Driver</h6></div>
+                   <div className='driverNotFoundTo' style={{display:noDriver==1?'':'none'}}>
+                     <div>
+                     <h6>No Driver</h6>
+                    </div> 
+                   <div>
+                    <h6 style={{color:'yellow'}}>Log in as a driver in an another tab</h6>
+                    </div>
+
+                   </div>
 
 
  
